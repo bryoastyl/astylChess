@@ -14,7 +14,7 @@ const Board = (props) => {
     let backgroundColor = true;
     props.setNextMovableTiles();
     return (
-        <div className= {css.container}>
+        <div className={css.container}>
             {ranks.map(rank => {
                 const bg = backgroundColor;
                 backgroundColor = !backgroundColor;

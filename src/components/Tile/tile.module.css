@@ -1,25 +1,24 @@
 .tile {
-    width: 11.5vmin;
-    height: 11.5vmin;
+    width: 9.5vmin;
+    height: 9.5vmin;
     display: inline-block;
     position: relative;
     margin: 0;
     padding: 0;
-    box-shadow: inset 1px 0 2px #F0F3F5;
 }
 
 .white {
-    background-color: rgb(255, 255, 255);
+    background-color:#bebdd4;
 }
 
 .black {
-    background-color: rgb(113, 233, 15);
+    background-color: #9299b0;
 }
 
 
 .selected {
-    outline: yellow solid 2.5px;
     z-index: 3;
+    background-color: #5966b4;
 }
 
 .ontop {
@@ -69,11 +68,12 @@
 }
 
 .lastMove {
-    background-color: rgb(245, 193, 61);
+    background-color: #5966b4;
 }
 
 .lastMoveTrail {
-    background-color: rgb(247, 211, 113);
+    background-color:#5966b4;
+
 }
 
 .popup {

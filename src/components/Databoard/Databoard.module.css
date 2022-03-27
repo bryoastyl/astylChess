@@ -1,0 +1,80 @@
+.Container{
+   width: 40%;
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: -1%;
+}
+.Timer{
+   background-color: #9299b0;
+   width: 74%;
+   padding: 10px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   border-radius: 3px;
+}
+.Timer > h2{
+   margin-left: auto;
+   margin-right: auto;
+}
+.TimerB{
+   background-color: #bebdd4;
+   width: 74%;
+   padding: 10px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   border-radius: 3px;
+   margin-top: 10px;
+}
+.TimerB > h2{
+   margin-left: auto;
+   margin-right: auto;
+}
+.UserLabel{
+   display: flex;
+   align-items: center;
+   padding: 10px;
+   width: 74%;
+   background-color: #383434;
+   margin-top: 10px;
+   border-radius: 3px;
+}
+.UserLabel > img {
+   height: 38px;
+   width: 38px;
+   border-radius: 50%;
+   object-fit: cover;
+   padding: 5px;
+}
+.Userdetails{
+   margin-left: 5px;
+   padding: 5px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+}
+.Userdetails > h5 {
+   font-size: 15.5px;
+   font-weight: 600;
+}
+.Userdetails > p {
+   font-size: 13.5px;
+   margin-top: 3px;
+}
+.MovesDiv{
+   background-color: #383434;
+   height: 250px;
+   width: 79%;
+   margin-top: 10px;
+   border-radius: 4px;
+}
+.MovesDiv > p {
+   margin-top: 35%;
+   margin-left: 25%;
+   margin-right: auto;
+}

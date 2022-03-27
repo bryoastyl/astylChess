@@ -1,0 +1,6 @@
+.Viewer{
+    display: flex;
+    margin-top: 3%;
+    align-items: center;
+    justify-content: space-evenly;
+}

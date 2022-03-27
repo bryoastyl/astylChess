@@ -1,0 +1,77 @@
+.Header{
+    background-color: #383434;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 2px 2px 0 0 #383434;
+}
+.Navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+.NavigationOptions{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    justify-content: space-evenly;
+}
+.NavigationOptions > h4 {
+    font-weight: 400;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    font-size: 14px;
+}
+.Navigation > h3 {
+    color: #9299b0;
+    padding: 0 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    cursor: pointer;
+}
+.UserWidgets{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 5px;
+    padding: 2px;
+}
+.Inputdiv{
+    display: flex;
+    margin: 0 20px;
+    align-items: center;
+}
+.Inputdiv > input {
+    background-color: transparent;
+    color: grey;
+    outline: #383434 1px solid;
+    padding: 10px;
+    width: 200px;
+    border: #9299b0 2px solid;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: none;
+}
+.SearchIcon{
+    padding: 10px;
+    align-items: center;
+    background-color: #9299b0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px ;
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+    cursor: pointer;
+    height: 20px;
+}
+.Languagediv{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
