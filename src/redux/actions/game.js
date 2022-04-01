@@ -17,6 +17,12 @@ export function toggleTurn(turn) {
     payload: turn,
   };
 }
+// export function toggleClock(turn) {
+//   return {
+//     type: types.TOGGLE_CLOCK,
+//     payload: turn,
+//   };
+// }
 
 export function setMovable(moves = []) {
   return {
