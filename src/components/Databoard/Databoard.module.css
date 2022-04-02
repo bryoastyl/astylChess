@@ -7,7 +7,18 @@
    margin-top: -1%;
 }
 .flip {
-	transform:rotate(-180deg);
+   width: 79%;
+   margin-top: 12px;
+   height: 40px;
+   cursor: pointer;
+   background-color: #9299b0;
+   border: none;
+   border-radius: 3px;
+   color: #fff;
+   font-weight: 500;
+   font-size: 19px;
+   padding: 10px;
+	
 }
 .Timer{
    background-color: #9299b0;
@@ -80,4 +91,17 @@
    margin-top: 35%;
    margin-left: 25%;
    margin-right: auto;
+}
+button {
+   width: 79%;
+   margin-top: 12px;
+   height: 40px;
+   cursor: pointer;
+   background-color: #bebdd4;
+   border: none;
+   border-radius: 3px;
+   color: #fff;
+   font-weight: 500;
+   font-size: 19px;
+   padding: 5px;
 }
