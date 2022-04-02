@@ -6,6 +6,9 @@
    align-items: center;
    margin-top: -1%;
 }
+.flip {
+	transform:rotate(-180deg);
+}
 .Timer{
    background-color: #9299b0;
    width: 74%;
