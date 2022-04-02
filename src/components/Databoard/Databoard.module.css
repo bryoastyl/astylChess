@@ -1,5 +1,5 @@
 .Container{
-   width: 40%;
+   width: 30%;
    padding: 10px;
    display: flex;
    flex-direction: column;
@@ -68,7 +68,7 @@
 }
 .MovesDiv{
    background-color: #383434;
-   height: 250px;
+   height: 260px;
    width: 79%;
    margin-top: 10px;
    border-radius: 4px;

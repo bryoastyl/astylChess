@@ -9,6 +9,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
+  background-color: green;
 }
 @media only screen and (max-width: 1000px) {
   .container {

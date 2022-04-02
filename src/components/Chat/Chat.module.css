@@ -1,0 +1,71 @@
+.container{
+    width: 22%;
+    height: 520px;
+    display: flex;
+    margin: 0 20px;
+    flex-direction: column;
+    align-items: center;
+    border: 1px #9299b0 solid;
+    border-radius: 10px;
+}
+.Header{
+    background-color: #9299b0;
+    width: 93%;
+    padding: 11px;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+.Header > img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.UserDetails{
+    margin-left: 10px;
+}
+.UserDetails > p {
+    font-size: 12px;
+}
+.UserDetails > h4 {
+    font-weight: 500;
+    font-size: 16px;
+}
+.Textarea{
+    margin-top: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.Textarea > input {
+    border: 1px solid #9299b0;
+    width: 75%;
+    border-radius: 15px;
+    height: 15px;
+    margin: 5px;
+    padding: 10px 10px;
+    background-color: transparent;
+    color: white;
+}
+.SendIcon{
+    width: 20px;
+    height: 20px;
+    background-color: #9299b0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 9px;
+    cursor: pointer;
+}
+.MuiSvgIcon-root{
+    font-size: 16px;
+    color: red;
+    
+}
