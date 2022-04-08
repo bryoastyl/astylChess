@@ -17,12 +17,12 @@ export function toggleTurn(turn) {
     payload: turn,
   };
 }
-// export function toggleClock(turn) {
-//   return {
-//     type: types.TOGGLE_CLOCK,
-//     payload: turn,
-//   };
-// }
+export function toggleClock(turn) {
+  return {
+    type: types.TOGGLE_CLOCK,
+    payload: turn,
+  };
+}
 
 export function setMovable(moves = []) {
   return {
@@ -250,6 +250,8 @@ export function setNextSnapshot(newMove, promotionPiece = "") {
     if (promotionPiece !== "") dispatch(setPromotionCode(""));
 
     dispatch(toggleTurn(newTurn));
+    dispatch(toggleClock(newTurn));
+    console.log(toggleClock(newTurn));
     dispatch(setTs());
     dispatch(setSnapshot(newSnapshot));
     dispatch(setSnapshotMove(newSnapshotMove));

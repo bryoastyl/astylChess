@@ -1,5 +1,7 @@
 import React from "react";
 import css from "./Databoard.module.css";
+
+import MovesHistory from "../MovesHistory";
 class DataBoard extends React.Component {
   constructor(props) {
     super(props);
@@ -41,9 +43,8 @@ class DataBoard extends React.Component {
   render() {
     return (
       <div className={css.Container}>
-        <button class={css.flip} onClick={() => this.switch("clock1")}>
+        <button className={css.flip} onClick={() => this.switch("clock1")}>
           {this.formatMins(this.state.clock1)}
-          {/* {console.log(this.state.clock1)} */}
         </button>
 
         <div className={css.UserLabel}>
@@ -58,9 +59,7 @@ class DataBoard extends React.Component {
             <p>GM 2816</p>
           </div>
         </div>
-        <div className={css.MovesDiv}>
-          <p>Moves will go here</p>
-        </div>
+        <MovesHistory />
         <div className={css.UserLabel}>
           <img
             alt="Loading"
