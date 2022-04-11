@@ -1,0 +1,30 @@
+.Container{
+    display: flex;
+    padding: 10px;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    margin-top: 20px;
+}
+.SidebarItem{
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    align-items: center;
+    cursor: pointer;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+
+}
+.SidebarItem:hover{
+    background-color: #383434;
+}
+.SidebarItem > h4 {
+    margin: 5px;
+    margin-left: 20px;
+    padding: 5px;
+    font-weight: 400;
+}

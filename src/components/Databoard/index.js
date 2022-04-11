@@ -42,7 +42,9 @@ class DataBoard extends React.Component {
 
   render() {
     return (
+      
       <div className={css.Container}>
+        <MovesHistory />
         <button className={css.flip} onClick={() => this.switch("clock1")}>
           {this.formatMins(this.state.clock1)}
         </button>
@@ -59,7 +61,6 @@ class DataBoard extends React.Component {
             <p>GM 2816</p>
           </div>
         </div>
-        <MovesHistory />
         <div className={css.UserLabel}>
           <img
             alt="Loading"
